@@ -1,7 +1,7 @@
 fileFormatVersion: 2
 guid: 1da8a800b9bb37d44abe5417eefcf149
 ModelImporter:
-  serializedVersion: 25
+  serializedVersion: 26
   internalIDToNameTable:
   - first:
       74: 3930225545945259239
@@ -30,7 +30,7 @@ ModelImporter:
       name: wornwood
     second: {fileID: 2100000, guid: 8d2436b6e3c10c94d8d5f9f8b8ba8a81, type: 2}
   materials:
-    importMaterials: 1
+    importMaterials: 0
     materialName: 0
     materialSearch: 1
     materialLocation: 1
@@ -208,6 +208,7 @@ ModelImporter:
     meshCompression: 0
     addColliders: 0
     useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
     importVisibility: 1
     importBlendShapes: 1
     importCameras: 1
