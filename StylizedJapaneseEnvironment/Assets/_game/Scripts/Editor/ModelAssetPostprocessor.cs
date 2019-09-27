@@ -5,7 +5,7 @@ using UnityEditor;
 
 public class ModelAssetPostprocessor : AssetPostprocessor
 {
-    private const string PREFAB_DESTINATION_DIRECTORY = "Assets/Prefabs/FBXPrefabs/";
+    private const string PREFAB_DESTINATION_DIRECTORY = "Assets/_game/Prefabs/FBXPrefabs/";
 
     private static void OnPostprocessAllAssets(
         string[] importedAssets,
