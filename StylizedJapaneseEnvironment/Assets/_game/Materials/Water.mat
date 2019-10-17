@@ -23,8 +23,8 @@ Material:
   m_Name: Water
   m_Shader: {fileID: 4800000, guid: eb2d48853c7092048bebaf3b2dbcd8ba, type: 3}
   m_ShaderKeywords: _LOWPOLY_ON
-  m_LightmapFlags: 0
-  m_EnableInstancingVariants: 0
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 1
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
   stringTagMap: {}
@@ -117,7 +117,7 @@ Material:
     - _BumpScale: 1
     - _CellBrightness: 0.8
     - _CellColor: 1.01
-    - _CellSize: 79.6
+    - _CellSize: 2
     - _Cull: 2
     - _Cutoff: 0.5
     - _DetailNormalMapScale: 1
@@ -130,26 +130,30 @@ Material:
     - _EnvironmentReflections: 1
     - _F: 0.6877505
     - _Float0: 1
-    - _Float1: 1
+    - _Float1: 0.777
+    - _Float10: 1
     - _Float2: -0.12
     - _Float3: 3.23
     - _Float7: 1.3
-    - _Foam: 0.5
+    - _Foam: 1
     - _FoamAmount: 0.6877505
     - _FoamDepth: 1
-    - _FoamDist: 0.333
+    - _FoamDist: 0.164
+    - _FoamDistance: 1
     - _FoamE: 1
     - _FoamEmission: 1
     - _FoamFalloff: 1
-    - _FoamOpacity: 1
+    - _FoamOpacity: 0.836
     - _FoamSmoothness: 1.21
     - _FoamSpecular: 0.82
+    - _FresnelPower: -12
+    - _FresnelSize: 1
     - _GlossMapScale: 1
     - _Glossiness: 0.5
     - _GlossyReflections: 1
-    - _HorizonPower: 1.38
+    - _HorizonPower: 1.56
     - _LowPoly: 1
-    - _Metallic: 0.5
+    - _Metallic: 0.53
     - _Mode: 0
     - _NormalScale: -7.82
     - _OcclusionStrength: 1
@@ -161,16 +165,25 @@ Material:
     - _Smoothness: 0.5
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
-    - _Speed: 0.5
+    - _Speed: 0.3
     - _SrcBlend: 1
     - _Surface: 0
     - _TessValue: 16.9
+    - _Tiling: 1
     - _Tiling01: 0
     - _Tiling02: 0
     - _UVSec: 0
+    - _VoBase: 0.777
+    - _VoronoiBaseOpacity: 0.777
+    - _VoronoiLightOpacity: 0.763
+    - _VoronoiOpacity01: 0.836
+    - _VoronoiOpacity02: 0.777
+    - _VoronoiPower: 1.37
+    - _VoronoiSize: 1.69
+    - _VoronoiSpeed: 0.4
     - _WaterDepth: 1
     - _WaterFalloff: 1
-    - _WaterOpacity: 0.4098994
+    - _WaterOpacity: 0.777
     - _WaterPower: 0
     - _WaterSmoothness: 1
     - _WaterSpecular: 1
@@ -185,18 +198,25 @@ Material:
     - _opacity: -1.81
     - _opaque: 5.64
     m_Colors:
+    - _Base: {r: 0, g: 0.7007751, b: 1, a: 0}
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _CellColor: {r: 0.33333334, g: 0.8495009, b: 0.9137255, a: 0}
+    - _Clamp: {r: 11.6, g: 12.3, b: 0, a: 0}
     - _Color: {r: 0, g: 0.9622642, b: 0.8905417, a: 0}
     - _Color0: {r: 0.1966002, g: 0.8867924, b: 0.85267365, a: 0}
-    - _Color1: {r: 1, g: 0.4536016, b: 0, a: 0}
+    - _Color1: {r: 1, g: 1, b: 1, a: 0}
     - _ColorBase: {r: 0.5486828, g: 0.6998026, b: 0.8490566, a: 0}
     - _ColorFo: {r: 0.04405482, g: 0.2435672, b: 0.6226415, a: 0}
     - _ColorFoam: {r: 0.04405482, g: 0.2435672, b: 0.6226415, a: 0}
-    - _ColorHorizon: {r: 1, g: 0, b: 0, a: 0}
+    - _ColorHorizon: {r: 1, g: 0.23113209, b: 0.6808663, a: 0}
     - _DeepColor: {r: 0.1255785, g: 0.18394093, b: 0.3207547, a: 0}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _FoamColor: {r: 1, g: 1, b: 1, a: 0}
+    - _FoamColor: {r: 1, g: 0, b: 0, a: 0}
+    - _FoamColor2: {r: 0, g: 0, b: 0, a: 0}
+    - _FresnelColor: {r: 0.7924528, g: 0.235493, b: 0.4495942, a: 0}
+    - _Light: {r: 1, g: 0.9653163, b: 0.8632076, a: 0}
     - _ShalowColor: {r: 0.41736382, g: 0.7792449, b: 0.7830189, a: 0}
     - _SpecColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+    - _VoronoiBase: {r: 0, g: 0.35106063, b: 1, a: 0}
+    - _VoronoiLight: {r: 0.504717, g: 0.8341776, b: 1, a: 0}
     - _WaterColor: {r: 0.4926471, g: 0.8740366, b: 1, a: 1}

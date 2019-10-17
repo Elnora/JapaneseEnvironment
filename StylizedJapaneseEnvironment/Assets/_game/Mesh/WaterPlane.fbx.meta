@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: d4fef3a9ebafb8340bec5374fb1ad0e0
+guid: 868cfbf7118858a46a26a7a24903cf3a
 ModelImporter:
   serializedVersion: 26
   internalIDToNameTable: []
@@ -7,18 +7,8 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: Grass
-    second: {fileID: 2100000, guid: a91d379210e497644b5eb03f02caa257, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Rock
-    second: {fileID: 2100000, guid: b1b112e77b63c49409bb2377fbedd724, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: grass2
-    second: {fileID: 2100000, guid: 5f784452e24eb8e49afd8752133c4510, type: 2}
+      name: No Name
+    second: {fileID: 2100000, guid: 1ca40b01b2ecbf542aaaf55d654fdd4f, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
@@ -59,7 +49,7 @@ ModelImporter:
     importCameras: 1
     importLights: 1
     swapUVChannels: 0
-    generateSecondaryUV: 1
+    generateSecondaryUV: 0
     useFileUnits: 1
     keepQuads: 0
     weldVertices: 1
@@ -75,12 +65,12 @@ ModelImporter:
     secondaryUVPackMargin: 4
     useFileScale: 1
   tangentSpace:
-    normalSmoothAngle: 119
+    normalSmoothAngle: 60
     normalImportMode: 0
     tangentImportMode: 3
     normalCalculationMode: 4
     legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
-    blendShapeNormalImportMode: 0
+    blendShapeNormalImportMode: 1
     normalSmoothingSource: 0
   referencedClips: []
   importAnimation: 1
