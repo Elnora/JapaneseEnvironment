@@ -144,18 +144,18 @@ Material:
     - _FoamAmount: 0.6877505
     - _FoamDepth: 1
     - _FoamDist: 0.164
-    - _FoamDistance: 1.28
+    - _FoamDistance: 0.68
     - _FoamE: 1
     - _FoamEmission: 1
     - _FoamFalloff: 1
-    - _FoamIntensity: 0.651
+    - _FoamIntensity: 0.724
     - _FoamOpacity: 1
     - _FoamPower: 1.14
     - _FoamPower2: 1.14
     - _FoamSmoothness: 1.21
     - _FoamSpecular: 0.82
     - _FoamTexTiling: 2
-    - _FresnelPower: -12
+    - _FresnelPower: -20.16
     - _FresnelSize: 1
     - _GlossMapScale: 1
     - _Glossiness: 0.5
@@ -185,10 +185,10 @@ Material:
     - _UVSec: 0
     - _VoBase: 0.777
     - _VoronoiBaseOpacity: 0.854
-    - _VoronoiLightOpacity: 0.881
+    - _VoronoiLightOpacity: 1
     - _VoronoiOpacity01: 0.836
     - _VoronoiOpacity02: 0.777
-    - _VoronoiPower: 1.37
+    - _VoronoiPower: 2.6
     - _VoronoiSize: 1.69
     - _VoronoiSpeed: 0.4
     - _WaterDepth: 1
@@ -223,10 +223,10 @@ Material:
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _FoamColor: {r: 1, g: 1, b: 1, a: 0}
     - _FoamColor2: {r: 0.5707547, g: 0.8859252, b: 1, a: 0}
-    - _FresnelColor: {r: 0.7924528, g: 0.235493, b: 0.4495942, a: 0}
+    - _FresnelColor: {r: 0.48235297, g: 1, b: 1, a: 0}
     - _Light: {r: 1, g: 0.9653163, b: 0.8632076, a: 0}
     - _ShalowColor: {r: 0.41736382, g: 0.7792449, b: 0.7830189, a: 0}
     - _SpecColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
     - _VoronoiBase: {r: 0.2216981, g: 0.75722694, b: 1, a: 0}
-    - _VoronoiLight: {r: 0.8066038, g: 0.97366196, b: 1, a: 0}
+    - _VoronoiLight: {r: 0.6650944, g: 0.9576085, b: 1, a: 0}
     - _WaterColor: {r: 0, g: 0.6577694, b: 1, a: 0}
