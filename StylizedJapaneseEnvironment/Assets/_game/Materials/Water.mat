@@ -96,6 +96,10 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _TextureSample1:
+        m_Texture: {fileID: 2800000, guid: 31890676c5b178840848afa665cb5a2f, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _TextureSample3:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -123,11 +127,13 @@ Material:
     - _CellBrightness: 0.8
     - _CellColor: 1.01
     - _CellSize: 2
+    - _ChromaticAberration: 0.1
     - _Cull: 2
     - _Cutoff: 0.5
     - _DetailNormalMapScale: 1
     - _Distortion: 0.5
     - _DstBlend: 0
+    - _EdgeLength: 32
     - _EmissionBlur: 0.6877505
     - _EmissionPower: 1
     - _EmissionS: 0.6877505
@@ -178,6 +184,8 @@ Material:
     - _Speed: 0.3
     - _SrcBlend: 1
     - _Surface: 0
+    - _TessMax: 100
+    - _TessMin: 5
     - _TessValue: 16.9
     - _Tiling: 1
     - _Tiling01: 0
@@ -198,8 +206,8 @@ Material:
     - _WaterSmoothness: 1
     - _WaterSpecular: 1
     - _WaterSpeed: 1
-    - _WaveHeight: 0.23
-    - _WaveSpeed: 1.66
+    - _WaveHeight: 0
+    - _WaveSpeed: 0.24
     - _WavesAmount: 4.22
     - _WavesAmplitude: -0.13
     - _WorkflowMode: 1

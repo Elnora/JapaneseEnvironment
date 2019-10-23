@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: a92b71331a061544692e339c4abdeab0
+guid: bad3cd602bf843c4da98fb8f987c40bd
 ModelImporter:
   serializedVersion: 26
   internalIDToNameTable: []
@@ -7,38 +7,13 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: Darkwood
-    second: {fileID: 2100000, guid: 453cd5b660d82cf4aa0d974b79f0aeec, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Grass
-    second: {fileID: 2100000, guid: a91d379210e497644b5eb03f02caa257, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Yellow
-    second: {fileID: 2100000, guid: 7d63d300c117459479356ddd04cc1ffa, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: cherry
-    second: {fileID: 2100000, guid: 41b99c900bb58a248af62967b1d2a85b, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: grass2
-    second: {fileID: 2100000, guid: 5f784452e24eb8e49afd8752133c4510, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: light wood
+      name: WoodLight
     second: {fileID: 2100000, guid: 0c4b92b2673e59144a1effa60f19663d, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: rock2
-    second: {fileID: 2100000, guid: 5cda98fbe2e41534c953e99060f0104f, type: 2}
+      name: wood
+    second: {fileID: 2100000, guid: 7aab3b76a6f3fd44d818b34a937288ca, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
@@ -79,7 +54,7 @@ ModelImporter:
     importCameras: 1
     importLights: 1
     swapUVChannels: 0
-    generateSecondaryUV: 1
+    generateSecondaryUV: 0
     useFileUnits: 1
     keepQuads: 0
     weldVertices: 1
