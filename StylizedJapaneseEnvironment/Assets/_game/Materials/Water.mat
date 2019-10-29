@@ -207,7 +207,7 @@ Material:
     - _WaterSpecular: 1
     - _WaterSpeed: 1
     - _WaveHeight: 0
-    - _WaveSpeed: 0.24
+    - _WaveSpeed: 0
     - _WavesAmount: 4.22
     - _WavesAmplitude: -0.13
     - _WorkflowMode: 1
