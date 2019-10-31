@@ -126,7 +126,7 @@ Shader "ASE/ParticleAdd"
 }
 /*ASEBEGIN
 Version=17101
--1736;114;1562;774;573;119.5;1;True;False
+-1736;114;1562;774;573;116.5;1;True;False
 Node;AmplifyShaderEditor.ColorNode;2;-800,11;Float;False;Property;_Color0;Color 0;2;0;Create;True;0;0;False;0;1,1,1,0;1,1,1,0;True;0;5;COLOR;0;FLOAT;1;FLOAT;2;FLOAT;3;FLOAT;4
 Node;AmplifyShaderEditor.SamplerNode;1;-798,347;Inherit;True;Property;_TextureSample0;Texture Sample 0;1;0;Create;True;0;0;False;0;None;None;True;0;False;white;Auto;False;Object;-1;Auto;Texture2D;6;0;SAMPLER2D;;False;1;FLOAT2;0,0;False;2;FLOAT;0;False;3;FLOAT2;0,0;False;4;FLOAT2;0,0;False;5;FLOAT;1;False;5;COLOR;0;FLOAT;1;FLOAT;2;FLOAT;3;FLOAT;4
 Node;AmplifyShaderEditor.SimpleMultiplyOpNode;3;-405,69;Inherit;False;2;2;0;COLOR;0,0,0,0;False;1;COLOR;0,0,0,0;False;1;COLOR;0
@@ -142,4 +142,4 @@ WireConnection;7;0;4;0
 WireConnection;9;2;4;0
 WireConnection;9;9;7;3
 ASEEND*/
-//CHKSM=2E96BBB0B5A8F4B44D9255B7B9CFD7FAFD1A5E61
+//CHKSM=BA132E11020FB48E802E6D76C385506D2E789815
