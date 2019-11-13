@@ -7,10 +7,10 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Sun
-  m_Shader: {fileID: 4800000, guid: 66da02ff5b325694299622390e456eea, type: 3}
+  m_Name: Ripples
+  m_Shader: {fileID: 4800000, guid: a7fc8569d48a9114bbf42f0260d430eb, type: 3}
   m_ShaderKeywords: 
-  m_LightmapFlags: 0
+  m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
@@ -19,8 +19,8 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
-    - _MainTex:
-        m_Texture: {fileID: 0}
+    - _TextureSample0:
+        m_Texture: {fileID: 2800000, guid: d624d629469e1c34a9c121de4b1b2f52, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _texcoord:
@@ -28,12 +28,6 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - _Cutoff: 0
-    - _Emission: 1.5
-    - _FresnelPower: 0.5
-    - _OpacityMask: 2.66
     - __dirty: 0
     m_Colors:
-    - _Color0: {r: 1, g: 0.9251615, b: 0.6462264, a: 0}
-    - _EdgeColor: {r: 0, g: 0.62534285, b: 1, a: 0}
-    - _SunColor: {r: 1, g: 0.8820976, b: 0.4292453, a: 0}
+    - _Speed: {r: -0.5, g: 0, b: 0, a: 0}
